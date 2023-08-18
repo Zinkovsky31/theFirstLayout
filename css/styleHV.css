@@ -1,0 +1,46 @@
+.header li:hover{
+	color: #42b3e5;
+}
+.header li:active{
+	color: red;
+	text-decoration: underline;
+}
+
+.key:active{
+	background-color: #098dea;
+	margin-top: 55px;
+	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+.key:hover{
+	box-shadow: 0 0 20px  rgba(0,0,0,0.5);
+}
+
+
+.men:hover{
+	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+.men:active{
+	box-shadow: 0 0 10px  #3a9eca;
+}
+.child:hover{
+	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+.child:active{
+	box-shadow: 0 0 10px  #3a9eca;
+}
+.women:hover{
+	box-shadow: 0 0 10px  rgba(0,0,0,0.5);
+}
+.women:active{
+	box-shadow: 0 0 10px  #3a9eca;
+}
+
+
+
+
+
+
+
+.soc a:active{
+	background-color: #7c7c7c;
+}

@@ -1,0 +1,483 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+ animation-duration: 0.01ms !important;
+ animation-iteration-count: 1 !important;
+ transition-duration: 0.01ms !important;
+ scroll-behavior: auto !important;
+  }
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+body{
+	margin: 0;
+}
+a{
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+
+	
+
+	
+}
+.container_nav{
+	display: flex;
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+
+.logo{
+	background-image: url(../img/Forma_1_copy.png);
+	background-repeat: no-repeat;
+	padding: 0 0 10px 60px;
+	margin-left: 197px;
+	color: #383838;
+	letter-spacing: 2.2px;
+	font-size: 40px;
+	text-transform: uppercase;
+	position: absolute;
+	left: 0;
+	margin-top: 28px;
+
+
+}
+.text{
+	font-size: 11px;
+	letter-spacing: 0.1px;
+	text-transform: none;
+	padding-left: 2px;
+	line-height: 0.1px;
+	
+
+
+}
+
+.header ul{
+	margin-left: 813px;
+	margin-top: 52px;
+	font-family: 'Open Sans', sans-serif;
+}
+	
+.header li{
+	list-style-type: none;
+	display: inline;
+	margin-right: 50px;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #737373;
+	
+
+}
+.promo{
+	margin-top: 26px; 
+	width: 100%;
+	padding:0;
+	background-size: 100%;
+	height: 840px;
+	background-image: url(../img/Layer_53_copy.png);
+	background-repeat: no-repeat;
+
+}
+.container_promo{
+	
+}
+
+
+h1 {
+	display: none;
+}
+.logo_promo{
+	color: #ffffff;
+	font-size: 155px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin: 0 1000px 0 0;
+	padding-top: 350px;
+	text-shadow: black 0 0 2px;
+	padding-left: 150px;
+}
+.text_promo{
+	text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	font-size: 2vw;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	;
+
+}
+.key{
+	color: #ffffff;
+	font-size: 25px;
+	margin-left: 180px;
+	background-color: #3a9eca;
+	width: 240px;
+	height: 56px;
+	padding: 7px 0 0 62px;
+	white-space: nowrap;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	margin-top: 50px;
+	border-radius: 3px;
+	text-transform: uppercase;
+
+}
+
+.logo_about{
+	color: #42b3e5;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 50px;
+
+}
+.text_about{
+	text-align: center;
+	color: #737373;
+	font-size: 15px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	font-family: 'Oswald', sans-serif;
+}
+.specialist{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 60px; 
+	margin-top: 47px;
+
+}
+.child, .women{
+margin-right: 40px;
+}
+
+
+
+
+
+/*    =============== SERVICES ============
+*/
+#ourServices{
+	background-image: url(../img/triFona.png);
+	height: 600px;
+
+}
+.logo_services{
+	color: #ffffff;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.text_services{
+	text-align: center;
+	color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+	
+	font-family: 'Oswald', sans-serif;
+}
+.problem{
+	display: flex;
+	margin-top: 90px;
+	justify-content: center;
+
+
+}
+.heart, .brain, .knee{
+	margin-right: 99px;
+}
+
+/* ==========TEAM========
+*/
+
+
+#ourT{
+	
+	color: #42b3e5;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 50px;
+}
+
+.setup{
+	margin-top: 47px;
+	padding-bottom: 60px;
+	display:flex;
+	justify-content: center;
+
+}
+
+/* == = = = == = = == CONTACT = = = == 
+*/
+#contactUs{
+	background-image: url(../img/map.png);
+	height: 843px;
+	padding-top: 200px;
+	background-size: 100%;
+	
+}
+.container_contact{
+	width: 1170px;
+	background-color: #3a9cc8;
+	margin: 0 auto;
+
+
+}
+.logo_contact{
+	padding-top: 30px;
+	color: #ffffff;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	
+
+	
+}
+.flex {
+	
+	display: flex;
+	margin-top: 50px;
+	justify-content: center;
+}
+
+.informantion{
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	display: flex;
+
+
+
+}
+.informantion span{
+	padding-left: 40px;
+}
+
+#line{
+	padding-left: 40px;
+	margin-top: 15px;
+}
+.contacts ul{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: none;
+
+
+}
+.contacts li{
+	list-style-type: none;
+}
+#first {
+	background-image: url(../img/kal.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	background-position: 3px 0;
+	
+
+}
+#second{
+	background-image: url(../img/Forma_1.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 20px;
+	background-position: 3px 0;
+}
+#third{
+	background-image: url(../img/phone.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 20px;
+	background-position: 3px 0;
+}
+#fourth{
+	background-image: url(../img/fax.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 20px;
+
+}
+#fifth{
+	background-image: url(../img/mail.png);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	margin-top: 20px;
+	background-position: 3px 0;
+}
+
+
+.message{
+	margin-left: 110px;
+}
+
+.message span{
+	
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+
+}
+.message img{
+	margin: 0;
+	margin-top: 15px;
+	padding-right: 30PX;
+}
+
+
+.data{
+	padding-left: 0px;
+	display: block;
+}
+
+input[type="text"]{
+	
+	margin-top: 25px;
+	border: 1px solid #cccccc;
+	height: 35px;
+	width: 500px;
+
+}
+input[type="email"]{
+	margin-top: 10px;
+	border: 1px solid #cccccc;
+	height: 35px;
+	width: 500px;
+}
+input[type="tel"]{
+	margin-top: 10px;
+	border: 1px solid #cccccc;
+	height: 35px;
+	width: 500px;
+}
+input[type="message"]{
+	margin-top: 10px;
+	border: 1px solid #cccccc;
+	height: 100px;
+	width: 500px;
+}
+
+input[type="submit"]{
+	color: #ffffff;
+	font-size: 20px;
+	background-color: #1e1e1e;
+	padding: 10px 60px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+
+.key_contact{
+	
+	float: right;
+
+	
+}
+
+/* = = = = = = ==  Footer = = = = == = = =*/
+.footer{
+	display: flex;
+	margin-top: 26px;
+}
+
+.foother_text {
+	opacity: 0.5;
+	font-size: 12px;
+	margin-left: 96px;
+	
+}
+
+.soc{
+	display: flex;
+	position: absolute;
+	right: 0;
+	margin-right: 100px;
+	
+}
+.soc a{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
